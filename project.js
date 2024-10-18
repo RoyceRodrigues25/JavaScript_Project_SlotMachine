@@ -121,7 +121,7 @@ const printRows = (rows) => {
         for (const [i,symbol] of row.entries()){
             rowString += symbol
             if (i != row.length -1) {
-                rowString += " | "
+                rowString += ""
             }
         }
         console.log(rowString)
